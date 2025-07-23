@@ -1,181 +1,241 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DelicioFoods</title>
-    <link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DelicioFoods</title>
+  <link rel="stylesheet" href="./style.css" />
 </head>
 <body>
-    <header>
-        <div class="navbar">
-          <div class="logo">DelicioFoods</div>
-          <ul class="nav-links">
-              <li><a href="#index">Home</a></li>
-              <li><a href="#menu">Menu</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#service">Services</a></li>
-              <li><a href="#Contact">Contact</a></li>
-              <li><a href="#SingUp/LogIn">SingUp/LogIn</a></li>
-          </ul>
+
+  <header>
+    <div class="navbar">
+      <div class="logo">DelicioFoods</div>
+      <ul class="nav-links">
+        <li><a href="#index">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#login">SignUp/LogIn</a></li>
+      </ul>
+    </div>
+
+    <div class="parent" id="index">
+      <div class="parent-left">
+        <h4>Enjoy our Delicious Foods</h4>
+        <h1>This is a <span>FOOD OF HEAVEN!</span></h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque perspiciatis unde delectus...</p>
+        <div class="search-box">
+          <input type="text" placeholder="Search the Foods" />
+          <button>Search</button>
         </div>
-        <div class="parent" id="index">
-          <div class="parent-left">
-            <h4>Enjoy our Delicious Foods </h4>
-            <h1>This is a <span>FOOD OF HEAVEN !</span></h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque perspiciatis unde delectus...</p>
-            <div class="search-box">
-              <input type="text" placeholder="Search the Foods">
-              <button>Search</button>
-            </div>
-          </div>
-          <div class="parent-right">
-            <h2>HURRY UP GUYS !!!</h2>
-            <p>EXPLORE <strong>The Greate FOOD Experience</strong></p> 
-          </div>
-        </div>
-     </header>
-     
-     <div class="menu-section" id="menu">
-       
-  <h2 class="menu-title">Our Menu</h2>
-   
-  <div class="menu-container">
-    <div class="menu-item">
-      <img src="./Image/BRIYANI.jpg" alt="Biryani">
-      <h3>Hyderabadi Biryani</h3>
-      <p>Fragrant basmati rice with spiced chicken.</p>
-      <span class="price">₹250</span>
+      </div>
+      <div class="parent-right">
+        <h2>HURRY UP GUYS !!!</h2>
+        <p>EXPLORE <strong>The Great FOOD Experience</strong></p>
+      </div>
     </div>
-    <div class="menu-item">
-      <img src="./Image/Butter chicken.jpg" alt="Butter Chicken">
-      <h3>Butter Chicken</h3>
-      <p>Rich tomato gravy with marinated chicken.</p>
-      <span class="price">₹300</span>
+  </header>
+
+  <section class="menu-section" id="menu">
+    <h2 class="menu-title">Our Menu</h2>
+    <div class="menu-container">
+
+      <div class="menu-item">
+        <img src="./images/BRIYANI.jpg" alt="Hyderabadi Biryani" />
+        <h3>Hyderabadi Biryani</h3>
+        <p>Fragrant basmati rice with spiced chicken.</p>
+        <span class="price">₹250</span>
+      </div>
+
+      <div class="menu-item">
+        <img src="./images/Butter chicken.jpg" alt="Butter Chicken" />
+        <h3>Butter Chicken</h3>
+        <p>Rich tomato gravy with marinated chicken.</p>
+        <span class="price">₹300</span>
+      </div>
+
+      <div class="menu-item">
+        <img src="./images/Palak Paneer.jpg" alt="Palak Paneer" />
+        <h3>Palak Paneer</h3>
+        <p>Cottage cheese cooked in spinach gravy.</p>
+        <span class="price">₹200</span>
+      </div>
+
+      <div class="menu-item">
+        <img src="./images/Naan.jpg" alt="Naan" />
+        <h3>Naan</h3>
+        <p>Fluffy fried bread.</p>
+        <span class="price">₹120</span>
+      </div>
+
+      <div class="menu-item">
+        <img src="./images/Masala Dosa.jpg" alt="Masala Dosa" />
+        <h3>Masala Dosa</h3>
+        <p>Crispy rice crepe with potato filling.</p>
+        <span class="price">₹100</span>
+      </div>
+
+      <div class="menu-item">
+        <img src="./images/Paneer Butter Masala.jpg" alt="Paneer Butter Masala" />
+        <h3>Paneer Butter Masala</h3>
+        <p>Paneer with sweet & spicy gravy.</p>
+        <span class="price">₹140</span>
+      </div>
+
+      <div class="menu-item">
+        <img src="./images/Mutton Gravy.jpg" alt="Mutton Rogan Josh" />
+        <h3>Mutton Rogan Josh</h3>
+        <p>Spicy aromatic mutton curry from Kashmir.</p>
+        <span class="price">₹320</span>
+      </div>
+
+      <div class="menu-item">
+        <img src="./images/Idli Sambar.jpg" alt="Idli Sambar" />
+        <h3>Idli Sambar</h3>
+        <p>Steamed rice cakes with tangy lentil soup.</p>
+        <span class="price">₹90</span>
+      </div>
+
+      <div class="menu-item">
+        <img src="./images/Pav Bhaji.jpg" alt="Pav Bhaji" />
+        <h3>Pav Bhaji</h3>
+        <p>Mashed spicy vegetables with buttered buns.</p>
+        <span class="price">₹110</span>
+      </div>
+
+      <div class="menu-item">
+        <img src="./images/Onion Pakoda.jpg" alt="Onion Pakoda" />
+        <h3>Onion Pakoda</h3>
+        <p>Crispy fried onion with green sauce.</p>
+        <span class="price">₹130</span>
+      </div>
+
+      <div class="menu-item">
+        <img src="./images/Aloo Paratha.jpg" alt="Aloo Paratha" />
+        <h3>Aloo Paratha</h3>
+        <p>Stuffed flatbread with spiced mashed potatoes.</p>
+        <span class="price">₹90</span>
+      </div>
+
+      <div class="menu-item">
+        <img src="./images/Samosa.jpg" alt="Punjabi Samosa" />
+        <h3>Punjabi Samosa</h3>
+        <p>Fried pastry with spicy potato filling.</p>
+        <span class="price">₹40</span>
+      </div>
+
+      <div class="menu-item">
+        <img src="./images/Parotta.jpg" alt="Parotta" />
+        <h3>Parotta</h3>
+        <p>Soft flatbread brushed with butter.</p>
+        <span class="price">₹35</span>
+      </div>
+
+      <div class="menu-item">
+        <img src="./images/Veg Thali.jpg" alt="Veg Thali" />
+        <h3>Veg Thali</h3>
+        <p>Assorted Indian dishes on a platter.</p>
+        <span class="price">₹180</span>
+      </div>
+
+      <div class="menu-item">
+        <img src="./images/Delhi Chaat.jpg" alt="Delhi Chaat" />
+        <h3>Delhi Chaat</h3>
+        <p>Sweet, sour, and spicy street-style mix.</p>
+        <span class="price">₹70</span>
+      </div>
+
+      <div class="menu-item">
+        <img src="./images/Malai Kofta.jpg" alt="Malai Kofta" />
+        <h3>Malai Kofta</h3>
+        <p>Vegetable dumplings in creamy gravy.</p>
+        <span class="price">₹220</span>
+      </div>
+
+      <div class="menu-item">
+        <img src="./images/Poha.jpg" alt="Poha" />
+        <h3>Poha</h3>
+        <p>Flattened rice with mustard, curry leaves & peanuts.</p>
+        <span class="price">₹60</span>
+      </div>
+
+      <div class="menu-item">
+        <img src="./images/Uttapam.jpg" alt="Uttapam" />
+        <h3>Uttapam</h3>
+        <p>South Indian thick pancake with toppings.</p>
+        <span class="price">₹110</span>
+      </div>
+
+      <div class="menu-item">
+        <img src="./images/Gajar Halwa.jpg" alt="Gajar Halwa" />
+        <h3>Gajar Halwa</h3>
+        <p>Sweet dessert made with carrots and milk.</p>
+        <span class="price">₹90</span>
+      </div>
+
+      <div class="menu-item">
+        <img src="./images/Lassi.jpg" alt="Sweet Lassi" />
+        <h3>Sweet Lassi</h3>
+        <p>Traditional Punjabi sweet yogurt drink.</p>
+        <span class="price">₹50</span>
+      </div>
+
     </div>
-    <div class="menu-item">
-      <img src="./Image/Palak Panner.jpg" alt="Palak Paneer">
-      <h3>Palak Paneer</h3>
-      <p>Cottage cheese cooked in spinach gravy.</p>
-      <span class="price">₹200</span>
-    </div>
-    <div class="menu-item">
-      <img src="./Image/Naan.jpg" alt="Naan">
-      <h3>Naan</h3>
-      <p>Fluffy fried bread.</p>
-      <span class="price">₹120</span>
-    </div>
-    <div class="menu-item">
-      <img src="./Image/Masala Dosa.jpg" alt="Dosa">
-      <h3>Masala Dosa</h3>
-      <p>Crispy rice crepe with potato filling.</p>
-      <span class="price">₹100</span>
-    </div>
-    <div class="menu-item">
-      <img src="./Image/Paneer Butter Masala.jpg" alt="paneer Butter Masala">
-      <h3>paneer Butter Masalal</h3>
-      <p>Paneer with sweet & spice Gravy.</p>
-      <span class="price">₹140</span>
-    </div>
-    <div class="menu-item">
-      <img src="./Image/Mutton Gravy.jpg" alt="Mutton Gravy">
-      <h3>Mutton Rogan Josh</h3>
-      <p>Spicy aromatic mutton curry from Kashmir.</p>
-      <span class="price">₹320</span>
-    </div>
-    <div class="menu-item">
-      <img src="./Image/Idli Sambar.jpg" alt="Idli Sambar">
-      <h3>Idli Sambar</h3>
-      <p>Steamed rice cakes with tangy lentil soup.</p>
-      <span class="price">₹90</span>
-    </div>
-    <div class="menu-item">
-      <img src="./Image/Pav Bhaji.jpg" alt="Pav Bhaji">
-      <h3>Pav Bhaji</h3>
-      <p>Mashed spicy vegetables with buttered buns.</p>
-      <span class="price">₹110</span>
-    </div>
-    <div class="menu-item">
-      <img src="./Image/Onoin Pakoda.jpg" alt="Onoin Pakoda">
-      <h3>Onoin Pakoda</h3>
-      <p>Crispy Fried Onion With Green Sause.</p>
-      <span class="price">₹130</span>
-    </div>
-    <div class="menu-item">
-      <img src="./Image/Aloo Paratha.jpg" alt="Aloo Paratha">
-      <h3>Aloo Paratha</h3>
-      <p>Stuffed flatbread with spiced mashed potatoes.</p>
-      <span class="price">₹90</span>
-    </div>
-    <div class="menu-item">
-      <img src="./images/Samosa.jpg" alt="Samosa">
-      <h3>Punjabi Samosa</h3>
-      <p>Fried pastry with spicy potato filling.</p>
-      <span class="price">₹40</span>
-    </div>
-    <div class="menu-item">
-      <img src="./images/Parotta.jpg" alt="Parotta">
-      <h3>Parotta</h3>
-      <p>Soft flatbread brushed with butter.</p>
-      <span class="price">₹35</span>
-    </div>
-    <div class="menu-item">
-      <img src="./Image/Veg Thali.jpg" alt="Veg Thali">
-      <h3>Veg Thali</h3>
-      <p>Assorted Indian dishes on a platter.</p>
-      <span class="price">₹180</span>
-    </div>
-    <div class="menu-item">
-      <img src="./Image/Delhi Chaat.jpg" alt="Chaat">
-      <h3>Delhi Chaat</h3>
-      <p>Sweet, sour, and spicy street-style mix.</p>
-      <span class="price">₹70</span>
-    </div>
-    <div class="menu-item">
-      <img src="./Image/Malai Kofta.jpg" alt="Malai Kofta">
-      <h3>Malai Kofta</h3>
-      <p>Vegetable dumplings in creamy gravy.</p>
-      <span class="price">₹220</span>
-    </div>
-    <div class="menu-item">
-      <img src="./images/Poha.jpg" alt="Poha">
-      <h3>Poha</h3>
-      <p>Flattened rice with mustard, curry leaves & peanuts.</p>
-      <span class="price">₹60</span>
-    </div>
-    <div class="menu-item">
-      <img src="./images/Uttapam.jpg" alt="Uttapam">
-      <h3>Uttapam</h3>
-      <p>South Indian thick pancake with toppings.</p>
-      <span class="price">₹110</span>
-    </div>
-    <div class="menu-item">
-      <img src="./Image/Gajar Halwa.jpg" alt="Gajar Halwa">
-      <h3>Gajar Halwa</h3>
-      <p>Sweet dessert made with carrots and milk.</p>
-      <span class="price">₹90</span>
-    </div>
-    <div class="menu-item">
-      <img src="./images/Lasi.jpg" alt="Lassi">
-      <h3>Sweet Lassi</h3>
-      <p>Traditional Punjabi sweet yogurt drink.</p>
-      <span class="price">₹50</span>
-    </div>
+  </section>
+
+  <section class="about" id="about">
+    <h1>About Us</h1>
+    <img src="./images/gold-spoon-fork-knife-vector-260nw-289026032-removebg-preview.png" alt="DelicioFoods Logo" height="100px" />
+    <br />
+    <img src="./images/Malabar Briyani.avif" height="200px" alt="About DelicioFoods" />
+    <p class="about-us">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam totam odio quidem sed voluptatum fugiat dolor quibusdam vitae aspernatur, odit voluptatibus repudiandae, assumenda quisquam qui! Natus perferendis cumque quod excepturi omnis. Mollitia recusandae illo ipsa deleniti corporis aperiam assumenda ducimus quod similique temporibus molestias, est officiis nostrum iste fugit nam at molestiae harum culpa unde aliquid provident enim adipisci ratione? Facere accusantium, quae voluptate corrupti nisi sint, distinctio esse repellat laudantium vitae, tenetur voluptas molestiae? Assumenda perspiciatis rerum doloribus similique id recusandae sint aspernatur, excepturi porro obcaecati, ullam inventore expedita quod eveniet? Neque in quam tenetur laboriosam dolorum eveniet repellat nulla incidunt quas veritatis illo quidem delectus odio, ut quae debitis dolores iste eius earum exercitationem facere quod ab nobis voluptas. Quae dolore cum nisi pariatur et velit quidem harum inventore. Laudantium, praesentium ipsum ab laboriosam corrupti sit perspiciatis porro. Id ipsum voluptatem, repudiandae nemo alias, voluptate eos corporis vero expedita labore necessitatibus incidunt, obcaecati soluta fuga perspiciatis itaque a quasi dolor ipsam excepturi laudantium. Ullam iste exercitationem natus nisi commodi autem porro corrupti, cupiditate minus a qui repudiandae doloremque eveniet? Explicabo similique dolor sit. Officiis accusantium exercitationem aperiam? Ut a explicabo aliquid dolores voluptate velit ipsam perspiciatis, dicta natus quibusdam libero nisi exercitationem. Voluptas, nostrum! Soluta aspernatur provident perspiciatis, reprehenderit eveniet laborum beatae molestias delectus, nesciunt eos consequuntur saepe dolores maxime excepturi repellat eum ab? Ullam quo ratione quaerat debitis quod alias laborum dignissimos qui eos mollitia? Impedit ipsa inventore laboriosam nihil, ratione ducimus a quos quaerat molestias doloremque delectus sapiente. Maiores, officiis. Deserunt quibusdam vel tenetur rem minima ex reiciendis saepe quis eaque eum, voluptate laboriosam fuga perferendis quasi placeat officia est. Velit iure eos facilis amet esse.</p>
+  </section>
+
+
+
+  <section class="services" id="services">
+  <div class="services-header">
+    <h5>Our Services</h5>
+    <h1>EXPLORE OUR SERVICES</h1>
   </div>
 
-     </div>
-     <div class="about" id="about">
-        <h1>About Us</h1>
-        <img src="./Image/gold-spoon-fork-knife-vector-260nw-289026032-removebg-preview.png" alt="logo"height=100px>
-        <br>
-    <img src="./Image/Malabar Briyani.avif" height="200px" alt="About DelicioFoods" />
-    <p class="about-us">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus magni earum ipsam, hic dignissimos mollitia maiores tempore veritatis inventore quod rerum saepe laborum, ratione ducimus quam dicta, exercitationem similique fugit. Necessitatibus aspernatur expedita enim totam libero beatae, animi reprehenderit atque placeat temporibus similique suscipit amet minus nulla nihil saepe. Ipsam, dolores. Quia doloremque ratione quidem explicabo, laborum qui ut magnam amet fugit cumque mollitia, error repellat rem accusamus nulla placeat quibusdam eum! Harum officia consectetur, mollitia, error illum dignissimos recusandae delectus praesentium laudantium illo laborum odio quasi repudiandae, accusamus commodi necessitatibus! Nemo, at natus! Eum soluta odio aperiam inventore incidunt itaque et ipsa quam quaerat dolores expedita ab nulla quidem tenetur excepturi eaque molestiae vero tempora iusto nisi, debitis explicabo architecto. Vitae alias et eveniet sequi molestiae cum explicabo itaque veritatis minus labore laborum incidunt, eos praesentium excepturi voluptatem molestias dolor ut, esse asperiores? Quos optio molestias veritatis perspiciatis culpa voluptates numquam illum! Vel suscipit at minus eaque nostrum deserunt! Cumque consequuntur, molestias eum illo temporibus nemo ex eveniet ducimus dignissimos ad ipsam obcaecati perferendis. Aperiam dicta, beatae, aliquid voluptate, commodi earum cumque tempore corporis odio iusto necessitatibus. Dolores quidem, rerum saepe id, iste quae maiores sit magni optio, nostrum voluptas debitis incidunt dolorem voluptates deserunt cum nisi. Facere cupiditate laudantium cum dolorum omnis eum sapiente nemo, consectetur eius commodi exercitationem consequatur impedit. Reprehenderit consequuntur cumque assumenda sint, nemo dicta amet quas saepe accusantium provident earum sed. In, incidunt nostrum molestiae facilis quia repudiandae delectus odio harum numquam esse ducimus dolorem rerum iure fugiat laboriosam, totam deleniti laudantium accusantium dolore obcaecati voluptates illo ipsam ad excepturi. Provident fugit fugiat sequi nam commodi reiciendis quisquam dolores quasi numquam similique odit ad, quo quae id expedita vel? Et molestias harum labore exercitationem.</p>
-  </div>
-  <br>
-  <div class="service">
+  <div class="services-container">
+    <div class="services-item">
+      <img src="./images/chef_2930068.png" alt="Chef logo" height="50" width="50">
+      <h3>Master Chef</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate incidunt, ipsam molestiae exercitationem quas aliquid dolores earum modi deserunt fugiat assumenda deleniti nulla obcaecati quo quos eaque, unde reiciendis nisi!</p>
+    </div>
 
+    <div class="services-item">
+      <img src="./images/quality_2011153.png" alt="Quality Foods" height="50" width="50">
+      <h3>Quality Foods</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate incidunt, ipsam molestiae exercitationem quas aliquid dolores earum modi deserunt fugiat assumenda deleniti nulla obcaecati quo quos eaque, unde reiciendis nisi!</p>
+    </div>
+
+    <div class="services-item">
+      <img src="./images/purchase_3745481.png" alt="Online Orders" height="50" width="50">
+      <h3>Online Orders</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate incidunt, ipsam molestiae exercitationem quas aliquid dolores earum modi deserunt fugiat assumenda deleniti nulla obcaecati quo quos eaque, unde reiciendis nisi!</p>
+    </div>
+
+    <div class="services-item">
+      <img src="./images/24-hours-support.png" alt="24/7 Services" height="50" width="50">
+      <h3>24/7 Services</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium architecto distinctio laboriosam, rem quia molestiae porro reprehenderit quas, quod fugiat sunt est beatae, culpa nihil dicta corrupti vero earum autem!</p>
+    </div>
+
+    <div class="services-item">
+      <img src="./images/drive-through.png" alt="Drive Through" height="50" width="50">
+      <h3>Drive Through</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium architecto distinctio laboriosam, rem quia molestiae porro reprehenderit quas, quod fugiat sunt est beatae, culpa nihil dicta corrupti vero earum autem!</p>
+    </div>
   </div>
+</section>
+
+
+
 </body>
-
-
 </html>
